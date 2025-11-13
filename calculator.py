@@ -1,4 +1,5 @@
 #https://github.com/woolly423/lab11-BR-PB
+#Partner 1: Brett Raimann
 """
 calculator.py
 - Defines functions used to create a simple calculator
