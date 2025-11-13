@@ -4,7 +4,6 @@ calculator.py
 
 One function per operation, in order.
 """
-<<<<<<< HEAD
 import math
 
 def add(a, b):
@@ -30,12 +29,11 @@ def log(a,b):
     
 def exp(a,b):
     return math.pow(a,b)
-=======
+
 # First example
 import math
 def add(a, b):
    return a + b
->>>>>>> 2b81feb91232d2a1b11ce1d5600d764927fa9ef4
 
 
 def sub(a, b):
@@ -62,4 +60,3 @@ def log(a, b):
 
 def exp(a, b):
    return a**b
-
