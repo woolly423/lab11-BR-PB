@@ -4,8 +4,16 @@ calculator.py
 
 One function per operation, in order.
 """
-<<<<<<< HEAD
+# <<<<<<< HEAD
 import math
+
+def square_root(a):
+    if a < 0:
+        raise ValueError
+    return math.sqrt(a)
+
+def hypotenuse(a, b):
+    return math.hypot(a, b)
 
 def add(a, b):
     return a+b
@@ -30,13 +38,11 @@ def log(a,b):
     
 def exp(a,b):
     return math.pow(a,b)
-=======
+# =======
 # First example
-import math
 def add(a, b):
    return a + b
->>>>>>> 2b81feb91232d2a1b11ce1d5600d764927fa9ef4
-
+# >>>>>>> 2b81feb91232d2a1b11ce1d5600d764927fa9ef4
 
 def sub(a, b):
    return a - b
@@ -56,9 +62,6 @@ def log(a, b):
    if b <= 0 or a <= 0:
        raise ValueError
    return math.log(b, a)
-
-
-
 
 def exp(a, b):
    return a**b
