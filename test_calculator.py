@@ -1,4 +1,6 @@
 #https://github.com/woolly423/lab11-BR-PB
+#Partner 1: Brett Raimman
+#Partner 2: Preston Butler
 import unittest
 from calculator import *
 
